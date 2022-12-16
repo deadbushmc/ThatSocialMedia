@@ -1,0 +1,238 @@
+body {
+    background-color: #fef9f8;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+}
+
+body::-webkit-scrollbar { width: 0 !important }
+
+body {
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+.main-content {
+    position: relative;
+    margin-top: 298px;
+}
+
+.content-1 {
+    border: 0px solid;
+    position: relative;
+    width: 1350px;
+    height: 970px;
+    left: 383px;
+    top: -200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 3px 3px lightgray;
+    background-color: white;
+}
+
+.top-content-1 a {
+    text-decoration: none;
+}
+
+.top-content-1 img {
+    border: 0px solid;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.logo {
+    border: 0px solid;
+    box-shadow: 0px 0px 3px 3px lightgray;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    margin-top: -300px;
+    background-color: white;
+    z-index: 1;
+}
+
+.logo img {
+    position: relative;
+    left: 15px;
+}
+
+.logo input {
+    position: relative;
+    height: 40px;
+    bottom: 21px;
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -49px;
+    border: 0px solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 50px;
+    background-color: #ECE9E9;
+}
+
+.logo input:active {
+    border: 0px solid;
+}
+
+.l-sidebar {
+    border: 1px solid lightgrey;
+    position: fixed;
+    width: 320px;
+    height: 800px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    margin-left: -30px;
+    margin-top: -200px;
+}
+.l-sidebar ul li {
+    list-style-type: none;
+    border: 0px solid;
+    width: 262px;
+    height: 73px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 3px 3px lightgray;
+}
+.l-sidebar h2 {
+    text-align: center;
+    position: relative;
+    right: 3px;
+    bottom: 15px;
+}
+.l-sidebar ul li img {
+    position: relative;
+    top: 10px;
+    left: 7px;
+    border: 0px solid;
+    border-radius: 50%;
+}
+
+.l-sidebar ul li p {
+    font-weight: lighter;
+    position: relative;
+    left: 70px;
+    bottom: 80px;
+}
+
+.l-sidebar ul li a {
+    position: relative;
+    left: 70px;
+    bottom: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.post-img-1 {
+    position: relative;
+    top: -114px;
+}
+
+.bottom-content-1 ul li {
+    list-style-type: none;
+    position: relative;
+    display: inline-block;
+    padding: 0px 25px;
+    top: -130px;
+    left: -30px;
+}
+
+.counter-1 ul li {
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    top: -267px;
+    left: 360px;
+}
+
+.r-sidebar {
+    border: 1px solid lightgrey;
+    width: 80px;
+    height: 800px;
+    position: fixed;
+    margin-top: -1257px;
+    margin-left: 1826px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.r-sidebar ul li {
+    list-style-type: none;
+    position: relative;
+    right: 40%;
+    margin-top: 45px;
+}
+
+/* ids */
+
+#inbox-nav {
+    transform: rotate(330deg);
+}
+
+#profile-nav {
+    border: 0px solid;
+    border-radius: 50%;
+}
+
+#name {
+    position: relative;
+    left: 80px;
+    top: -50px;
+    color: black;
+    font-weight: bold;
+}
+
+#user {
+    position: relative;
+    left: 80px;
+    color: gray;
+    top: -70px;
+    font-size: small;
+}
+
+#user:hover {
+    text-decoration: underline;
+}
+
+#dot {
+    position: relative;
+    left: 1315px;
+    top: -117px;
+}
+
+#hr-1 {
+    position: relative;
+    top: -105px;
+    border-color: black;
+}
+
+#hr-2 {
+    position: relative;
+    top: -127px;
+    border-color: black;
+}
+
+#like {
+    position: relative;
+    left: 30px;
+}
+
+#cmt {
+    position: relative;
+    left: 107px;
+}
+
+#share {
+    position: relative;
+    left: 185px;
+}
+
+

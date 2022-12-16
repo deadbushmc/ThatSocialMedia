@@ -1,0 +1,145 @@
+body {
+    background-color: #fef9f8;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-class {
+    position: fixed;
+    border: 0px solid;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 3px 3px lightgray;
+    width: 1600px;
+    height: 870px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.one a img {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.one a img:hover {
+    filter: brightness(70%);
+    transition: ease 0.3s;
+}
+
+.two a img {
+    position: relative;
+    left: 440px;
+    top: -385px;
+}
+
+.three a img {
+    position: relative;
+    left: 1060px;
+    top: -740px;
+}
+
+.four a img {
+    position: relative;
+    top: -925px;
+    left: 20px;
+}
+
+.five a img {
+    position: relative;
+    top: -1180px;
+    left: 810px;
+}
+
+.six a img {
+    position: relative;
+    top: -1415px;
+    left: 440px;
+}
+
+.seven a img {
+    position: relative;
+    top: -1610px;
+    left: 20px;
+}
+
+.eight a img {
+    position: relative;
+    top: -1825px;
+    left: 810px;
+}
+
+.nine a img {
+    position: relative;
+    top: -2040px;
+    left: 1370px;
+}
+
+.two a img:hover {
+    filter: brightness(70%);
+    transition: ease 0.3s;
+}
+
+.three a img:hover {
+    filter: brightness(70%);
+    transition: ease 0.3s;
+}
+
+.four a img:hover {
+    filter: brightness(70%);
+    transition: ease 0.3s;
+}
+
+.five a img:hover {
+    filter: brightness(70%);
+    transition: ease 0.3s;
+}
+
+.six a img:hover {
+    filter: brightness(70%);
+    transition: ease 0.3s;
+}
+
+.seven a img:hover {
+    filter: brightness(70%);
+    transition: ease 0.3s;
+}
+
+.eight a img:hover {
+    filter: brightness(70%);
+    transition: ease 0.3s;
+}
+
+.nine a img:hover {
+    filter: brightness(70%);
+    transition: ease 0.3s;
+}
+
+
+.r-sidebar {
+    border: 1px solid lightgrey;
+    width: 80px;
+    height: 800px;
+    position: fixed;
+    margin-top: 55px;
+    margin-left: 1826px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    background-color: #fef9f8;
+}
+
+.r-sidebar ul li {
+    list-style-type: none;
+    position: relative;
+    right: 40%;
+    margin-top: 45px;
+}
+
+#inbox-nav {
+    transform: rotate(330deg);
+}
